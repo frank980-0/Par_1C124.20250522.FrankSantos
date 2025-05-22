@@ -41,6 +41,13 @@ public class GestionDeNaves {
                     System.out.print("capacidad de tripulacion:");
                     int tripulacion = sc.nextInt();
                     
+                    System.out.print("anio de lanzamiento: ");
+                    int anio = sc.nextInt();
+                    
+                    if (tipo == 1)
+                        System.out.print("mision (cartografia, investigacion, contacto): ");
+                    
+                    
                     break;
                 
                     
