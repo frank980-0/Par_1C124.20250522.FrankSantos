@@ -29,21 +29,17 @@ public class GestionDeNaves {
             
             switch (opcion) {
                 case 1:
-                    System.out.print("tipo(1= Exploracion| 2= Carguero| 3= Extelar): ");
-                    int tipo = sc.nextInt();
-                    sc.nextLine();
+                    System.out.print("1. nave de exploracion");
+                    System.out.print("2. carguero");
+                    System.out.print("1. crucero");
+                    System.out.print("selecciona una opcion");
                     
-                    System.out.print("nombre");
+                    int tipo = sc.nextInt(); sc.nextLine();
+                    
+                    System.out.print("nombre: ");
                     String nombre = sc.nextLine();
-                    
-                    System.out.print("capacidad de tripulacion: ");
+                    System.out.print("capacidad de tripulacion:");
                     int tripulacion = sc.nextInt();
-                    
-                    
-                    System.out.println("anio de lanzamiento: ");
-                    int anio = sc.nextInt();
-                    
-                    
                     
                     break;
                 
